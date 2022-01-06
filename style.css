@@ -2,6 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
+
 /* ==============
 HEADER SECTION
 ============== */
@@ -14,19 +15,21 @@ h1 {
 h2 {
   font-size: 50px;
 }
-h3{
+
+h3 {
   font-size: 20px;
 }
 
 .Header-orange {
   color: #ffa500;
 }
+
 .header-slice {
   border-left: 7px solid;
   border-image: linear-gradient(tomato, salmon);
   border-image-slice: 1;
   padding-left: 20px;
-  
+
 }
 
 /* FLEXIABLE CONTAINER */
@@ -34,14 +37,15 @@ h3{
 .section {
   display: flex;
   margin-bottom: 150px;
- 
+
 }
+
 .half {
   width: 100%;
   margin-left: 5%;
   padding-left: 5%;
   padding-right: 7%;
-  
+
 }
 
 
@@ -66,13 +70,14 @@ h3{
 
 /* Mission section */
 .section02 {
-  padding: 10px 100px;
+  padding: 10pxgit 100px;
 }
 
 
 .my-mission {
   text-align: center;
 }
+
 .mission-item {
   width: 20%;
   margin-left: 5%;
@@ -80,7 +85,7 @@ h3{
   padding: 20px;
   box-shadow: 10px 10px 40px gray;
   border-radius: 20px;
-  
+
 }
 
 .mission-img {
@@ -89,12 +94,14 @@ h3{
 
 #mission {
   background-color: #edf5f6;
-  
+
 }
+
 #vision {
   background-color: #ffeeee;
-  
+
 }
+
 #goals {
   background-color: #fff4d6;
 }
@@ -103,13 +110,21 @@ h3{
   background-image: url(./images/shapes/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
-  
+
 }
+
 .section04 {
   background-image: url(./images/shapes/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
-  
+
+}
+
+
+.service-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* =========
@@ -124,8 +139,9 @@ footer {
   color: white;
   line-height: 10px;
 }
+
 footer h2 {
   font-family: 'The Nautigal', cursive;
-  font-weight:bolder;
+  font-weight: bolder;
 
 }
